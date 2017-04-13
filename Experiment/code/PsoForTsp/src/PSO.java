@@ -1,15 +1,22 @@
-
-	import java.io.BufferedReader;  
-	import java.io.FileInputStream;  
-	import java.io.IOException;  
-	import java.io.InputStreamReader;  
-    import java.text.DecimalFormat;
-	import java.util.ArrayList;  
+/**
+*-------------------------------------------------------------------------------------------------------------
+* PsoForTsp algorithm by Wu Lingting        
+* Programmed by Zheng Xianghan, Chen Riqing, Ye Shaozhen at College of Mathematics and Computer Science, Fuzhou University, Fuzhou, China
+* Last revised: April 2017     
+*--------------------------------------------------------------------------------------------------------------
+* Paper -- Citation Details: 
+* 1ï¼‰Xianghan Zheng, Lingting Wu1, Shaozhen Ye1, Riqing Chen 
+* Simplified Swarm Optimization based Function Modules Detection in Protein-to-Protein Interaction Networks
+**/	
+import java.io.BufferedReader;  
+import java.io.FileInputStream;  
+import java.io.IOException;  
+import java.io.InputStreamReader;  
+import java.text.DecimalFormat;
+import java.util.ArrayList;  
 import java.util.List;
 import java.util.Random;  
-
 import org.omg.CORBA.PUBLIC_MEMBER;
-
 import com.sun.org.apache.bcel.internal.generic.NEW;
 	  
 	public class PSO {  
@@ -291,7 +298,7 @@ import com.sun.org.apache.bcel.internal.generic.NEW;
 	                listV.add(i, Vii);  
 	  
 	                // Updating location  
-	                // Xid¡¯=Xid+Vid  
+	                // XidÂ¡Â¯=Xid+Vid  
 	                add(oPopulation[i], Vii);  
 	            }  
 	  
@@ -307,7 +314,7 @@ import com.sun.org.apache.bcel.internal.generic.NEW;
 	                }  
 	                if (vPgd > vPd[k]) 
 	                {  
-	                    System.out.println("Optimum length"+Double.parseDouble(df.format(vPgd))+" generation£º"+bestT);  
+	                    System.out.println("Optimum length"+Double.parseDouble(df.format(vPgd))+" generationÂ£Âº"+bestT);  
 	                    bestT = t;  
 	                    vPgd = vPd[k];  
 	                  
@@ -405,7 +412,7 @@ import com.sun.org.apache.bcel.internal.generic.NEW;
 					list1.add(i);//The path of getting truncated coordinates
 				}
 			}
-	    	/*System.out.println("Truncated coordinates£º ");
+	    	/*System.out.println("Truncated coordinatesÂ£Âº ");
 	    	for (int i = 0; i < list1.size(); i++) 
 	    	{
 	    		System.out.println(" "+Integer.parseInt(String.valueOf(list1.get(i))));
@@ -565,7 +572,7 @@ import com.sun.org.apache.bcel.internal.generic.NEW;
 
 				}
 
-	    	System.out.print("\n The number of filtered proteins£º"+ filteredNum);
+	    	System.out.print("\n The number of filtered proteinsÂ£Âº"+ filteredNum);
 	    	
 	    	
 	    	
