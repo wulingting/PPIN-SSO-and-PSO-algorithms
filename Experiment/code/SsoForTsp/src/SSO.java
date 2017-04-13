@@ -1,15 +1,22 @@
-
-	import java.io.BufferedReader;  
-	import java.io.FileInputStream;  
-	import java.io.IOException;  
-	import java.io.InputStreamReader;  
-    import java.text.DecimalFormat;
-	import java.util.ArrayList;  
+ /**
+*-------------------------------------------------------------------------------------------------------------
+* SsoForTsp algorithm by Wu Lingting        
+* Programmed by Zheng Xianghan, Chen Riqing, Ye Shaozhen at College of Mathematics and Computer Science, Fuzhou University, Fuzhou, China
+* Last revised: April 2017     
+*--------------------------------------------------------------------------------------------------------------
+* Paper -- Citation Details: 
+* 1）Xianghan Zheng, Lingting Wu1, Shaozhen Ye1, Riqing Chen 
+* Simplified Swarm Optimization based Function Modules Detection in Protein-to-Protein Interaction Networks
+**/	
+import java.io.BufferedReader;  
+import java.io.FileInputStream;  
+import java.io.IOException;  
+import java.io.InputStreamReader;  
+import java.text.DecimalFormat;
+import java.util.ArrayList;  
 import java.util.List;
 import java.util.Random;  
-
 import org.omg.CORBA.PUBLIC_MEMBER;
-
 import com.sun.org.apache.bcel.internal.generic.NEW;
 	  
 	public class SSO {  
