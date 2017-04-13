@@ -2,17 +2,14 @@
 experimental supplementary material including data, result and code.
 A total of three large folders are cleaned data,code,result.
 
-/*****************************************************************************************************************************/
 1.The file of cleand data: There are total 12 text files that all have been cleaned up, corresponding to four species and each species includes the file of interaction, interactor and GO. The data source is shown below:
----------------------------------------------------------------------------------
-Abbreviation  |   Full name	                    |           URL                  |
----------------------------------------------------------------------------------|
-    DIP	      |Database of Interacting Proteins	|http://dip.doe-mbi.ucla.edu/dip/|
-    GO	      |Gene Ontology Consortium	        |http://geneontology.org/        |
-  UniProt     |Universal Protein	            |http://www.uniprot.org/         |
----------------------------------------------------------------------------------
-
-/*****************************************************************************************************************************/
+-------------------------------------------------------------------------------------
+|   Abbreviation  |   Full name	                    |           URL                  |
+|------------------------------------------------------------------------------------|
+|    DIP	      |Database of Interacting Proteins	|http://dip.doe-mbi.ucla.edu/dip/|
+|    GO	          |Gene Ontology Consortium	        |http://geneontology.org/        |
+|   UniProt       |Universal Protein	            |http://www.uniprot.org/         |
+-------------------------------------------------------------------------------------
 
 2.The file of code:This folder contains a detailed code of SSO and PSO algorithm.
 
@@ -38,7 +35,5 @@ Abbreviation  |   Full name	                    |           URL                 
 (4)resultJudge.java:This class is to caculate the value of the relevant issues,inlucing Co,Se and so on.
 
 (5)SimilarJudge.java:This class is to structure similarity matrix.
-
-/*****************************************************************************************************************************/
 
 3.The file of result:They are the results of PSO and SSO algorithm experiments, each algorithm corresponds to the results of four different species, as well as the integration of the results of the four species.
